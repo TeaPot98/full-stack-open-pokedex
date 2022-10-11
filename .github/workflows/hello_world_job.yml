@@ -15,5 +15,8 @@ jobs:
           echo "Hello World!"
       - name: Print date
         run: |
-          date --date='@2147483647'
-          
+          date +'%m/%d/%Y'
+      - name: Print file location
+        run: |
+          ls
+            
