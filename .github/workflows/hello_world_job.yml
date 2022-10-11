@@ -15,5 +15,5 @@ jobs:
           echo "Hello World!"
       - name: Print date
         run: |
-          date %c
+          date --date='@2147483647'
           
